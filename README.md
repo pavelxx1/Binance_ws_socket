@@ -1,1 +1,1 @@
-# Binance_ws_socket
+The code establishes WebSocket connections to Binance for multiple cryptocurrency symbols, monitors real-time Kline data, and implements a trading strategy. The strategy involves analyzing trade counts and candlestick patterns, particularly focusing on the size of high and low shadows relative to the overall range. When certain conditions are met, it prints trading signals (BUY or SELL) along with corresponding Binance URLs for the symbols.
